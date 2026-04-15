@@ -35,30 +35,24 @@ flex-direction: row;
     text-decoration: underline;
 }
 .hero{
-    background-image: linear-gradient(#4b404078, #0d0e17b5, #4b404078),
+    background-image: linear-gradient(#000000ab, #000000c9, #0000009e),
      url(../assets/architecte-interieur/projets/devanture-boutique.jpg); url(../assets/architecte-interieur/projets/devanture-boutique.jpg);
    padding-block: 47vh;
     background-size: cover;
 }
-h1{
-    color: white;
-    font-size: 25px;
-    background-color: #0F1D2B;
-    text-align: center;
-    padding: 12px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  letter-spacing: 3px;
-}
+
 .h2-nom{
-    background-color:#014561 ;
-    color: white;
+     background: rgba(26, 8, 8, 0.08);
+    backdrop-filter: blur(8px);
+    color: rgb(0, 0, 0);
+    padding: 18px 0;
     text-align: center;
-    padding: 10px;
-    font-size: 17px;
+    padding: 30px;
+    font-size: 26px;
     letter-spacing: 2px;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    
 }
 .container{
     max-width: 1080px;
@@ -68,12 +62,51 @@ h1{
 }
 
 .titre-principale{
-    font-family: "Poppins", sans-serif;
-    font-size: 44px;
-    font-family: "Poppins", sans-serif;
-
+     font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 600;
 }
 .h3-sitation{
-    Poppins, sans-serif;
+    background: rgba(26, 8, 8, 0.08);
+    backdrop-filter: blur(8px);
+    color: rgb(0, 0, 0);
+    padding: 18px 0;
+    text-align: center;
+    padding: 30px;
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
 }
+.service1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+.img-materiaux{
+    height: 480px;
+    width: 480px;
+
+}
+.h2-materiaux{
+    color: black;
+    display: flex;
+    align-items: center;
+    background: rgba(161, 193, 236, 0.082);
+    backdrop-filter: blur(8px);
+}
+.service2{
+    display: flex;
+    flex-direction: row-reverse;
+    background: rgba(161, 193, 236, 0.082);
+    backdrop-filter: blur(8px);
+}
+.h2-concept{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+}
+
+
 
