@@ -38,7 +38,7 @@ flex-direction: row;
 }
 .hero{
     background-image: linear-gradient(#000000ab, #000000c9, #0000009e),
-     url(../assets/architecte-interieur/projets/devanture-boutique.jpg); url(../assets/architecte-interieur/projets/devanture-boutique.jpg);
+     url(../rendu-3eme-semaine-Osman69700/assets/architecte-interieur/projets/devanture-boutique.jpg); url(../assets/architecte-interieur/projets/devanture-boutique.jpg);
    padding-block: 47vh;
     background-size: cover;
 }
